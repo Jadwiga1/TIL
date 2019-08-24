@@ -9,7 +9,7 @@ Todo - #1
 
 Todo - #2
 
-- [5 Reasons Why You're NOT Becoming a Programmer] (https://www.youtube.com/watch?v=HJtNUW6kk1E)
+- [5 Reasons Why You're NOT Becoming a Programmer](https://www.youtube.com/watch?v=HJtNUW6kk1E)
 - [What do programmers actually do?](https://www.youtube.com/watch?v=FVdQETvHBoE) 
 - [Front end vs Back end | Blonde Dictionary explanation](https://www.youtube.com/watch?v=NlpK0-TLrjw)
 - [What is Git and Github? Source Control — Coding For Beginners](https://www.youtube.com/watch?v=3bchX_7ANQc)
