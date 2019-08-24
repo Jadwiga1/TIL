@@ -6,6 +6,7 @@ A collection of links and concise write-ups on small things I learn day to day a
 ## Day 1
 
 Todo - #1
+
 Todo - #2
 
 - [5 Reasons Why You're NOT Becoming a Programmer] (https://www.youtube.com/watch?v=HJtNUW6kk1E)
