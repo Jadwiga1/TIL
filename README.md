@@ -15,3 +15,11 @@ Todo - #2
 - [What is Git and Github? Source Control — Coding For Beginners](https://www.youtube.com/watch?v=3bchX_7ANQc)
 - [How to create a repository on github](https://help.github.com/en/articles/create-a-repo)
 - [Praktyczny kurs Git - #1/12 Czym jest Git?](https://www.youtube.com/watch?v=D6EI7EbEN4Q&t=19s)
+
+
+## Day 2
+- [Python - download]
+- [PyCharm - download]
+- [Kurs Python 3 [#1] Instalacja środowiska, PyCharm](https://www.youtube.com/watch?v=NN5Pht2FRWs)
+
+IDE - Integrated Development Environment (Zintegrowane środowisko programistyczne)
