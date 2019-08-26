@@ -18,8 +18,12 @@ Todo - #2
 
 
 ## Day 2
-- [Python - download]
-- [PyCharm - download]
+- Python - download
+- PyCharm - download
 - [Kurs Python 3 [#1] Instalacja środowiska, PyCharm](https://www.youtube.com/watch?v=NN5Pht2FRWs)
 
 IDE - Integrated Development Environment (Zintegrowane środowisko programistyczne)
+
+
+## Day 3
+- [POIT 009: Programowanie frontendu aplikacji webowych - Krzysztof Kempiński](https://www.youtube.com/watch?v=vtn7UhAJrDU)
