@@ -39,7 +39,7 @@ Robert C. Martin
 Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 
 1. Etyka zawodowa
-- styczeń 1986 roku - robicie promu kosmicznego Challenger
+- styczeń 1986 roku - rozbicie promu kosmicznego Challenger
 2. Object Mentor
 - firma skupiająca doswiadczonych inżynierów oprogramowania i managerów z tej branży (założycielem i prezes jest "Wujek Bob")
 3. Przykładowe
@@ -80,9 +80,9 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 -- Ja (...) to zrobię do (...)
     > "Ja (imię Pana Młodego) biorę Ciebie (imię Panny Młodej) za żonę i ślubuję Ci miłość, wierność i uczciwość małżeńską oraz to, że Cię nie opuszczę aż do śmierci."]
 18. Wykrywanie własnych błędów ("pisanie na klawiaturze")
-19. "chodzi [...] o takie ukształtowanie kodu, zeby sam ujawniał Twoje zamiary"
+19. "chodzi [...] o takie ukształtowanie kodu, żeby sam ujawniał Twoje zamiary"
 20. Higiena pracy
-- nie pisz kodu, kiedy jestes zmęczony
+- nie pisz kodu, kiedy jesteś zmęczony
 - dyscyplina
 - rozwiąż/odsuń zmartwienia ["Hakuna matata"]
 - koncentracja
@@ -91,7 +91,7 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
  
     > Strefa jest stanem niekomunikatywnym.
  
-    > Programowanie w parach własciwie wyklucza wejście w strefę (praca w parach wymaga ciągłej i intensywnej komunikacji."
+    > Programowanie w parach właściwie wyklucza wejście w strefę (praca w parach wymaga ciągłej i intensywnej komunikacji."
 - muzyka
 - przerwy
 - kreatywne zajęcia
