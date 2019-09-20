@@ -72,6 +72,10 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 14. Prosta aplikacja ;)
 15. Bohater dnia codziennego - dyscyplina
 16. Elektroniczny recepcjonicta (Bob - wspóltwórca)
+17. Język zobowiazań
+- Książka: "Powiedz. Zamierzaj. Zrób." Roy Osherove
+- Słowa kluczowe świadczące o BRAKu zobowiązania:
+--
 
 
 
