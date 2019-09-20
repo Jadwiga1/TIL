@@ -78,7 +78,7 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 -- trzeba by, musiałby, mam nadzieję, dobrze by było, powinniśmy
 - Praawidłowe sformułowanie zobowiązania:
 -- Ja (...) to zrobię do (...)
-["Ja (imię Pana Młodego) biorę Ciebie (imię Panny Młodej) za żonę i ślubuję Ci miłość, wierność i uczciwość małżeńską oraz to, że Cię nie opuszczę aż do śmierci."]
+  > "Ja (imię Pana Młodego) biorę Ciebie (imię Panny Młodej) za żonę i ślubuję Ci miłość, wierność i uczciwość małżeńską oraz to, że Cię nie opuszczę aż do śmierci."]
 18. Wykrywanie własnych błędów ("pisanie na klawiaturze")
 19. "chodzi [...] o takie ukształtowanie kodu, zeby sam ujawniał Twoje zamiary"
 20. Higiena pracy
@@ -87,9 +87,11 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 - rozwiąż/odsuń zmartwienia ["Hakuna matata"]
 - koncentracja
 - stan hiperproduktywności (ang. flow) - wg  niektórych programistów "strefa" (ang. zone)
-  > "Kod napisany w strefie na pewno powstaje szybciej, ale później treba go częściej poprawiać."
-  >Strefa jest stanem niekomunikatywnym.
-  >Programowanie w parach własciwie wyklucza wejście w strefę (praca w parach wymaga ciągłej i intensywnej komunikacji."
+ > "Kod napisany w strefie na pewno powstaje szybciej, ale później treba go częściej poprawiać."
+ 
+ > Strefa jest stanem niekomunikatywnym.
+ 
+ > Programowanie w parach własciwie wyklucza wejście w strefę (praca w parach wymaga ciągłej i intensywnej komunikacji."
 
 
 
