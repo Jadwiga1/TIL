@@ -108,9 +108,75 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 26. TDD - 3 zasady
 
 
+# 2019.09.21
+1. Python - zasady języka
+- ogólnie wykonuje polecenia w kolejności ich zapisania
+- obowiązują zasady kolejności wykonywania działań
+- wartość x zapisana jako ostania jest nadrzędna ("kasuje" pozostałe wczesniej zdefiniowane wartości x)
+KOD
+x = 10
+print(x)
+x = 15
+print(x)
+x = x + 2
+print(x)
+x = x + 2 * 2
+print(x)
 
-C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3 [#2] Poznajemy zmienne\Uwaga 1.png
+RUN
+10
+15
+17
+21
 
+- separator dziesiętny: domyślnie kropka - jeśli chcę przecinek???
+- kolejność wykonywania kodu: od najniższego poziomu
+        > print(type(x))
+        > najpierw "type" a potem "print"
+        
+- stringów nie można odejmować i dzielić :)
+- stringi można dodawać i mnożyć :)
+x = "Hello world"
+x = x + " Yay"
+
+x = "Hello world " * 2
+
+- funkcja "input"
+x = input()
+Program czeka na wpisanie wartości
+wszytsko traktuje jako ciąg znaków (nawet liczby)
+
+- !!!! zapis 
+x = x + 2
+oznacza to samo co
+x += 2
+
+
+- funkcja int - konwersja string do int
+zakomunikuje błąd, jeśli wpiszemy cos innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:
+x = input()
+x = int(x)
+x += 2
+print(x)
+print(type(x))
+
+
+- funkcja float - konwersja string do float
+można wpisać jako x: liczbę całkowitą lub niecałkowitą
+x = input()
+x = float(x)
+x += 2
+print(x)
+print(type(x))
+
+
+2. Klasy zmiennych
+Liczbowe
+- integer (int) - liczba całkowita
+- float (complex) - zmiennoprzecinkowe
+        Python automatycznie dokonuje konwersji podczas wykonywania dzielenia: integer > float
+
+- string (str) - ciąg znaków
 
 
 
