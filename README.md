@@ -113,7 +113,7 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 - ogólnie wykonuje polecenia w kolejności ich zapisania
 - obowiązują zasady kolejności wykonywania działań
 - wartość x zapisana jako ostania jest nadrzędna ("kasuje" pozostałe wczesniej zdefiniowane wartości x)
-KOD
+KOD 1
 x = 10
 print(x)
 x = 15
@@ -123,7 +123,7 @@ print(x)
 x = x + 2 * 2
 print(x)
 
-RUN
+RUN 1
 10
 15
 17
@@ -133,6 +133,14 @@ RUN
 - kolejność wykonywania kodu: od najniższego poziomu
         > print(type(x))
         > najpierw "type" a potem "print"
+
+ZNAKI
+- przypisania: =
+- równości: ==
+- nierówności: !=
+- "to" :) - na końcu warunku: :
+- większości: >
+- mniejszości: <
         
 - stringów nie można odejmować i dzielić :)
 - stringi można dodawać i mnożyć :)
@@ -169,6 +177,113 @@ x += 2
 print(x)
 print(type(x))
 
+- wypisywanie fragmentów stringów
+> wypisując pierwszy znak stringa, trzeba wpsać 0 [zero]
+> wypisując więcej znaków, zaczynać od 1 [jedynki], np. [1:3]
+
+- Co to robi??? Na pewno nie wypisuje wyrazu przy tym zapisie.
+x = "Ala ma kota a kot ma Alę :)"
+y = x[-2]
+print(y)
+print(type(x))
+
+
+- "Gotowe" zostanie wypisane niezależnie od tego, czy x będzie się równać 5!!!!
+x = 10
+if x == 5:
+    print("Zgadza się")
+    print("Tak")
+
+print("Gotowe")
+
+
+- Python "widzi" wcięcia wierszy i od tego może zależeć, czy coć wykona lub nie
+
+- bool a string
+KOD 2
+x = "daj"
+print(type(x))
+
+if bool(x):
+    print("Zgadza się")
+else:
+    print("Nie zgadza się")
+
+print(type(x))
+
+print("Gotowe")
+
+
+RUN 2
+<class 'str'>
+Zgadza się
+<class 'str'>
+Gotowe
+
+
+
+- WHY????? W warunkach najpierw podaje się prawdę?
+KOD 3
+if 0:
+    print("Zgadza się")
+else:
+    print("Nie zgadza się")
+    
+RUN 3
+Nie zgadza się
+
+
+
+
+- lista
+KOD 4
+Produkty = []
+print(Produkty)
+print(type(Produkty))
+RUN 4
+[]
+<class 'list'>
+WAŻNE! Python rozróżnia wielkość liter.
+> wypisując pierwszy element listy, trzeba wpsać 0 [zero], kolejny 1 itd.
+> wypisując element, licząc od końca, to -1
+
+FUNKCJE
+- append - dodaje element (pojedynczy?) do listy na końcu
+- clear - czyści listę
+- count - liczy ile razy "mleko" pojawia się na liście
+- append - można dodać inną listę
+- index - podaje, na jakiej pozycji występuje dany element
+- insert - można cos dodać na jakiejś pozycji
+- pop - usuwanie elementu o danej pozycji, np. 1 (pamiętać, że liczy się od 0!)
+- remove - usuwanie elementu o danej nazwie
+
+KOD 5
+Produkty = ["mleko","jaja","ryby","mleko"]
+Produkty.remove("mleko")
+print(Produkty)
+RUN 5
+['jaja', 'ryby', 'mleko']
+
+
+- TUPLE: listy [] można edytować a tupli () nie - tuple są "szybsze" :)
+
+- SŁOWNIK {} (dict) - zestaw kluczy i wartości
+> person = {"wiek": 20, "imię": "Ania", "nazwisko": "Kowalska"}
+print(person["wiek"])
+
+WAŻNE rodzaje nawiasów:
+print(person["wiek"]) 
+ale
+print(person.get("wzrost", 25))
+
+
+FUNKCJE
+- clear - usuwanie całości
+- copy - kopiowanie
+- get - po przecinku można dać wartość, którą ma zwrócić, jeżeli nie znajdzie danego elementu
+- keys - 
+- values - lista wartości
+- items
 
 2. Klasy zmiennych
 Liczbowe
@@ -177,6 +292,10 @@ Liczbowe
         Python automatycznie dokonuje konwersji podczas wykonywania dzielenia: integer > float
 
 - string (str) - ciąg znaków
+- boolean (bool) - prawda/fałsz (typ logiczny)
+- list - lista
+- dictionary (dict) - słownik
+- dict_keys
 
 
 
