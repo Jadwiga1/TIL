@@ -109,6 +109,8 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 
 
 
+C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3 [#2] Poznajemy zmienne\Uwaga 1.png
+
 
 
 
