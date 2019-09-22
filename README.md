@@ -113,7 +113,7 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 - ogólnie wykonuje polecenia w kolejności ich zapisania
 - obowiązują zasady kolejności wykonywania działań
 - wartość x zapisana jako ostania jest nadrzędna ("kasuje" pozostałe wczesniej zdefiniowane wartości x)
-KOD 1
+KOD 1 </div>
 x = 10
 print(x)
 x = 15
@@ -134,13 +134,13 @@ RUN 1
         > print(type(x))
         > najpierw "type" a potem "print"
 
-ZNAKI
-- przypisania: =
-- równości: ==
-- nierówności: !=
-- "to" :) - na końcu warunku: :
-- większości: >
-- mniejszości: <
+- ZNAKI
+    - przypisania: =
+    - równości: ==
+    - nierówności: !=
+    - "to" :) - na końcu warunku: :
+    - większości: >
+    - mniejszości: <
         
 - stringów nie można odejmować i dzielić :)
 - stringi można dodawać i mnożyć :)
@@ -150,9 +150,9 @@ x = x + " Yay"
 x = "Hello world " * 2
 
 - funkcja "input"
-x = input()
-Program czeka na wpisanie wartości
-wszytsko traktuje jako ciąg znaków (nawet liczby)
+    x = input()
+    Program czeka na wpisanie wartości
+    wszystko traktuje jako ciąg znaków (nawet liczby)
 
 - !!!! zapis 
 x = x + 2
@@ -161,7 +161,7 @@ x += 2
 
 
 - funkcja int - konwersja string do int
-zakomunikuje błąd, jeśli wpiszemy cos innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:
+zakomunikuje błąd, jeśli wpiszemy coś innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:
 x = input()
 x = int(x)
 x += 2
@@ -178,10 +178,10 @@ print(x)
 print(type(x))
 
 - wypisywanie fragmentów stringów
-> wypisując pierwszy znak stringa, trzeba wpsać 0 [zero]
+> wypisując pierwszy znak stringa, trzeba wpisać 0 [zero]
 > wypisując więcej znaków, zaczynać od 1 [jedynki], np. [1:3]
 
-- Co to robi??? Na pewno nie wypisuje wyrazu przy tym zapisie.
+- Co to robi? Na pewno nie wypisuje wyrazu przy tym zapisie. ODP. Prowadzący kurs blędnie określił, co się stanie. Funkcja wypisuje ZNAK a nie wyraz.
 x = "Ala ma kota a kot ma Alę :)"
 y = x[-2]
 print(y)
@@ -197,7 +197,7 @@ if x == 5:
 print("Gotowe")
 
 
-- Python "widzi" wcięcia wierszy i od tego może zależeć, czy coć wykona lub nie
+- Python "widzi" wcięcia wierszy i od tego może zależeć, czy coć wykona czy nie
 
 - bool a string
 KOD 2
@@ -235,7 +235,7 @@ Nie zgadza się
 
 
 
-- lista
+- [LISTY]
 KOD 4
 Produkty = []
 print(Produkty)
@@ -247,7 +247,7 @@ WAŻNE! Python rozróżnia wielkość liter.
 > wypisując pierwszy element listy, trzeba wpsać 0 [zero], kolejny 1 itd.
 > wypisując element, licząc od końca, to -1
 
-FUNKCJE
+funkcje
 - append - dodaje element (pojedynczy?) do listy na końcu
 - clear - czyści listę
 - count - liczy ile razy "mleko" pojawia się na liście
@@ -265,9 +265,11 @@ RUN 5
 ['jaja', 'ryby', 'mleko']
 
 
-- TUPLE: listy [] można edytować a tupli () nie - tuple są "szybsze" :)
+- (TUPLE) 
+listy [] można edytować a tupli () nie - tuple są "szybsze" :)
 
-- SŁOWNIK {} (dict) - zestaw kluczy i wartości
+- {SŁOWNIK}  
+(dict) - zestaw kluczy i wartości
 > person = {"wiek": 20, "imię": "Ania", "nazwisko": "Kowalska"}
 print(person["wiek"])
 
@@ -277,13 +279,55 @@ ale
 print(person.get("wzrost", 25))
 
 
-FUNKCJE
+funkcje
 - clear - usuwanie całości
 - copy - kopiowanie
 - get - po przecinku można dać wartość, którą ma zwrócić, jeżeli nie znajdzie danego elementu
 - keys - 
 - values - lista wartości
 - items
+
+
+
+- PĘTLE
+kod, który wykonuje się więcej niż jeden raz
+
+**while** - wykonuje się, dopóki nie zostanie spełniony określony warunek
+definiowanie zminnej, która przerywa pętlę
+
+Niekończąca się historia - warunek nigdy nie zostanie spełniony
+i = 0
+while i < 10:
+    print(i)
+    
+    
+    
+Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.
+suma = 0
+while True:
+    print("Wpisz liczbę")
+    x = input()
+    suma += int(x)
+    print(suma)
+    
+Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.
+lista = ["a","b","c","d"]
+i = 0
+while i < 10:
+    print(lista[i])
+    i +=1
+    
+
+**for**
+
+Jaka jest definicja "litery" dla Pythona??
+lista = ["a","b","c","d","e","f","g","h","i","j","k"]
+
+for litera in lista:
+    print(litera)
+
+    
+    
 
 2. Klasy zmiennych
 Liczbowe
