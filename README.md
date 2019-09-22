@@ -112,22 +112,22 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 ### Python - zasady języka
 1. Ogólnie wykonuje polecenia w kolejności ich zapisania
 2. Obowiązują zasady kolejności wykonywania działań
-3. Wartość x zapisana jako ostania jest nadrzędna ("kasuje" pozostałe wczesniej zdefiniowane wartości x)
-KOD 1
-x = 10
-print(x)
-x = 15
-print(x)
-x = x + 2
-print(x)
-x = x + 2 * 2
-print(x)
+3. Wartość x zapisana jako ostania jest nadrzędna ("kasuje" pozostałe wczesniej zdefiniowane wartości x)  
+KOD 1  
+x = 10  
+print(x)  
+x = 15  
+print(x)  
+x = x + 2  
+print(x)  
+x = x + 2 * 2  
+print(x)  
 
-RUN 1
-10
-15
-17
-21
+RUN 1  
+10  
+15  
+17  
+21  
 
 4. Separator dziesiętny: domyślnie kropka - jeśli chcę przecinek???
 5. Kolejność wykonywania kodu: od najniższego poziomu
