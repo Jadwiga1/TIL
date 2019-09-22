@@ -281,39 +281,50 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
 19. PĘTLE
     - kod, który wykonuje się więcej niż jeden raz
   
-**while** 
-    - wykonuje się, dopóki nie zostanie spełniony określony warunek
-    - definiowanie zminnej, która przerywa pętlę
+    - **while** 
+        - wykonuje się, dopóki nie zostanie spełniony określony warunek
+        - definiowanie zminnej, która przerywa pętlę
 
-    - Niekończąca się historia - warunek nigdy nie zostanie spełniony  
-        i = 0  
-        while i < 10:  
-            print(i)  
+        - Niekończąca się historia - warunek nigdy nie zostanie spełniony  
+            i = 0  
+            while i < 10:  
+                print(i)  
 
-    - Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.  
-        suma = 0  
-        while True:  
-            print("Wpisz liczbę")  
-            x = input()  
-            suma += int(x)  
-            print(suma)  
+        - Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.  
+            suma = 0  
+            while True:  
+                print("Wpisz liczbę")  
+                x = input()  
+                suma += int(x)  
+                print(suma)  
 
-    - Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.?  
-        lista = ["a","b","c","d"]  
-        i = 0  
-        while i < 10:  
-            print(lista[i])  
-            i +=1  
+        - Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.?  
+            lista = ["a","b","c","d"]  
+            i = 0  
+            while i < 10:  
+                print(lista[i])  
+                i +=1  
 
 
-    **for**
-    - Jaka jest definicja "litery" dla Pythona??  
-        lista = ["a","b","c","d","e","f","g","h","i","j","k"]  
-
-        for litera in lista:  
-            print(litera)  
+    - **for**
+        - Jaka jest definicja "litery", "fruit" dla Pythona??  
+                lista = ["a","b","c","d","e","f","g","h","i","j","k"]  
+                for litera in lista:  
+                    print(litera)  
+                
+                fruits = ['apple', 'orange', 'pear', 'banana', 'apple']  
+                for fruit in fruits:  
+                    print(fruit)  
   
-  
+    - funkcja **range**
+        - generuje listę wg zdefiniowanych argumentów
+        - maksymalnie można zdefiniować 3 argumenty
+        - for i in range(10): - wygeneruje listę od 0 do 9 (zero liczy się jako pierwsza w kolejnosci cyfra)
+        - for i in range(5,10): - wygeneruje listę od 5 do 9 (dlaczego od 5 a nie od 4???)
+        - for i in range(5,10,2): - wygeneruje listę od 5 do 9, ale cyfry będą się zwiększały o 2 (the same why??)
+        
+    - funkcja **enumerate**
+        ![](C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3\Kurs Python 3 [#9] enumerate, format, break\funkcja enumerate.png)
   
 #### Klasy zmiennych
     Liczbowe
@@ -328,5 +339,4 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
     - dict_keys
 
 
-
-
+- [GIT - formatowanie tekstu](https://github.com/zozlak/MLAK/wiki/1.5.1-Formatowanie-tekstu)
