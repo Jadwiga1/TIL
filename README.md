@@ -33,10 +33,10 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
 - Słownik Python (https://python101.readthedocs.io/pl/latest/podstawy/gloss_python.html)
 
 ## 2019.09.06-15
-KSIĄŻKA 
-Mistrz czystego kodu. Kodeks postepowania profesjonalnych programistów (ang. The Clean Coder: A Code of Conduct for Professional Programmers 
-Robert C. Martin 
-Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
+KSIĄŻKA  
+Mistrz czystego kodu. Kodeks postepowania profesjonalnych programistów (ang. The Clean Coder: A Code of Conduct for Professional Programmers  
+Robert C. Martin  
+Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)  
 
 1. Etyka zawodowa
 - styczeń 1986 roku - rozbicie promu kosmicznego Challenger
