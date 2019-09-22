@@ -33,9 +33,9 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
 - Słownik Python (https://python101.readthedocs.io/pl/latest/podstawy/gloss_python.html)
 
 ## 2019.09.06-15
-KSIĄŻKA
-Mistrz czystego kodu. Kodeks postepowania profesjonalnych programistów (ang. The Clean Coder: A Code of Conduct for Professional Programmers
-Robert C. Martin
+KSIĄŻKA 
+Mistrz czystego kodu. Kodeks postepowania profesjonalnych programistów (ang. The Clean Coder: A Code of Conduct for Professional Programmers 
+Robert C. Martin 
 Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 
 1. Etyka zawodowa
@@ -157,7 +157,6 @@ x = "Hello world " * 2
 
 9. !!!! zapis      x = x + 2      oznacza to samo co      x += 2
 
-
 10. Funkcja int 
 - konwersja string do int
 - zakomunikuje błąd, jeśli wpiszemy coś innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:
@@ -166,7 +165,6 @@ x = int(x)
 x += 2
 print(x)
 print(type(x))
-
 
 11. Funkcja float 
 - konwersja string do float
@@ -186,7 +184,6 @@ x = "Ala ma kota a kot ma Alę :)"
 y = x[-2]
 print(y)
 print(type(x))
-
 
 13. Python "widzi" **wcięcia wierszy** i od tego może zależeć, czy coć wykona czy nie
 - "Gotowe" zostanie wypisane niezależnie od tego, czy x będzie się równać 5!!!!
@@ -212,7 +209,6 @@ print(type(x))
 
 print("Gotowe")
 
-
 RUN 2
 <class 'str'>
 Zgadza się
@@ -227,11 +223,9 @@ if 0:
     print("Zgadza się")
 else:
     print("Nie zgadza się")
-    
+
 RUN 3
 Nie zgadza się
-
-
 
 
 16. [LISTY]
@@ -265,7 +259,7 @@ RUN 5
 
 
 17. (TUPLE) 
-listy [] można edytować a tupli () nie - tuple są "szybsze" :)
+- listy [] można edytować a tupli () nie - tuple są "szybsze" :)
 
 18. {SŁOWNIKI}  
 - (dict) - zestaw kluczy i wartości
@@ -273,7 +267,6 @@ listy [] można edytować a tupli () nie - tuple są "szybsze" :)
 print(person["wiek"])
 
 - WAŻNE rodzaje nawiasów:    print(person["wiek"])    ale    print(person.get("wzrost", 25))
-
 
 - funkcje
         - clear - usuwanie całości
@@ -284,21 +277,18 @@ print(person["wiek"])
         - items
 
 
-
 19. PĘTLE
 - kod, który wykonuje się więcej niż jeden raz
 
 **while** 
 - wykonuje się, dopóki nie zostanie spełniony określony warunek
-definiowanie zminnej, która przerywa pętlę
+- definiowanie zminnej, która przerywa pętlę
 
 - Niekończąca się historia - warunek nigdy nie zostanie spełniony
 i = 0
 while i < 10:
     print(i)
-    
-    
-    
+
 - Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.
 suma = 0
 while True:
@@ -306,14 +296,14 @@ while True:
     x = input()
     suma += int(x)
     print(suma)
-    
+
 - Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.?
 lista = ["a","b","c","d"]
 i = 0
 while i < 10:
     print(lista[i])
     i +=1
-    
+
 
 **for**
 - Jaka jest definicja "litery" dla Pythona??
@@ -322,8 +312,7 @@ lista = ["a","b","c","d","e","f","g","h","i","j","k"]
 for litera in lista:
     print(litera)
 
-    
-    
+
 
 #### Klasy zmiennych
 Liczbowe
