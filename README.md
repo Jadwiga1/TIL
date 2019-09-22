@@ -133,7 +133,7 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
 5. Kolejność wykonywania kodu: od najniższego poziomu
         > print(type(x))
         > najpierw "type" a potem "print"
-
+  
 6. ZNAKI
     - przypisania: =
     - równości: ==
@@ -141,105 +141,105 @@ Helion S.A. 2013 (ISBN: Mobi: 978-83-246-7536-4)
     - "to" :) - na końcu warunku: :
     - większości: >
     - mniejszości: <
-        
+  
 7. Stringi
 - stringów nie można odejmować i dzielić :)
-- stringi można dodawać i mnożyć :)
-x = "Hello world"
-x = x + " Yay"
-
-x = "Hello world " * 2
-
+- stringi można dodawać i mnożyć :)  
+x = "Hello world"  
+x = x + " Yay"  
+  
+x = "Hello world " * 2  
+  
 8. Funkcja input
 - x = input()
 - Program czeka na wpisanie wartości
 - Wszystko traktuje jako ciąg znaków string (nawet liczby)
-
+  
 9. !!!! zapis      x = x + 2      oznacza to samo co      x += 2
-
+  
 10. Funkcja int 
 - konwersja string do int
-- zakomunikuje błąd, jeśli wpiszemy coś innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:
-x = input()
-x = int(x)
-x += 2
-print(x)
-print(type(x))
-
+- zakomunikuje błąd, jeśli wpiszemy coś innego (np. Anna; 10,5; 10.5) niż liczbę całkowitą przy następującym kodzie:  
+x = input()  
+x = int(x)  
+x += 2  
+print(x)  
+print(type(x))  
+  
 11. Funkcja float 
 - konwersja string do float
-- można wpisać jako x: liczbę całkowitą lub niecałkowitą
-x = input()
-x = float(x)
-x += 2
-print(x)
-print(type(x))
+- można wpisać jako x: liczbę całkowitą lub niecałkowitą  
+x = input()  
+x = float(x)  
+x += 2  
+print(x)  
+print(type(x))  
 
 12. Wypisywanie fragmentów stringów
 - wypisując pierwszy znak stringa, trzeba wpisać 0 [zero]
 - wypisując więcej znaków, zaczynać od 1 [jedynki], np. [1:3]
-
-- Co to robi? Na pewno nie wypisuje wyrazu przy tym zapisie. ODP. Prowadzący kurs blędnie określił, co się stanie. Funkcja wypisuje ZNAK a nie wyraz.
-x = "Ala ma kota a kot ma Alę :)"
-y = x[-2]
-print(y)
-print(type(x))
-
+  
+- Co to robi? Na pewno nie wypisuje wyrazu przy tym zapisie. ODP. Prowadzący kurs blędnie określił, co się stanie. Funkcja wypisuje ZNAK a nie wyraz.  
+x = "Ala ma kota a kot ma Alę :)"  
+y = x[-2]  
+print(y)  
+print(type(x))  
+  
 13. Python "widzi" **wcięcia wierszy** i od tego może zależeć, czy coć wykona czy nie
-- "Gotowe" zostanie wypisane niezależnie od tego, czy x będzie się równać 5!!!!
-x = 10
-if x == 5:
-    print("Zgadza się")
-    print("Tak")
+- "Gotowe" zostanie wypisane niezależnie od tego, czy x będzie się równać 5!!!!  
+x = 10  
+if x == 5:  
+    print("Zgadza się")  
+    print("Tak")  
+  
+print("Gotowe")  
+  
 
-print("Gotowe")
-
-
-14. **bool a string**
-KOD 2
-x = "daj"
-print(type(x))
-
-if bool(x):
-    print("Zgadza się")
-else:
-    print("Nie zgadza się")
-
-print(type(x))
-
-print("Gotowe")
-
-RUN 2
-<class 'str'>
-Zgadza się
-<class 'str'>
-Gotowe
-
-
-
-15. WHY????? W warunkach najpierw podaje się prawdę?
-KOD 3
-if 0:
-    print("Zgadza się")
-else:
-    print("Nie zgadza się")
-
-RUN 3
-Nie zgadza się
-
-
-16. [LISTY]
-KOD 4
-Produkty = []
-print(Produkty)
-print(type(Produkty))
-RUN 4
-[]
-<class 'list'>
+14. **bool a string**  
+KOD 2  
+x = "daj"  
+print(type(x))  
+  
+if bool(x):  
+    print("Zgadza się")  
+else:  
+    print("Nie zgadza się")  
+  
+print(type(x))  
+  
+print("Gotowe")  
+  
+RUN 2  
+<class 'str'>  
+Zgadza się  
+<class 'str'>  
+Gotowe  
+  
+  
+  
+15. WHY????? W warunkach najpierw podaje się prawdę?  
+KOD 3  
+if 0:  
+    print("Zgadza się")  
+else:  
+    print("Nie zgadza się")  
+  
+RUN 3  
+Nie zgadza się  
+  
+  
+16. [LISTY]  
+KOD 4  
+Produkty = []  
+print(Produkty)  
+print(type(Produkty))  
+RUN 4  
+[]  
+<class 'list'>  
 - WAŻNE! Python rozróżnia wielkość liter.
 > wypisując pierwszy element listy, trzeba wpsać 0 [zero], kolejny 1 itd.
 > wypisując element, licząc od końca, to -1
-
+  
 - funkcje
         - append - dodaje element (pojedynczy?) do listy na końcu
         - clear - czyści listę
@@ -249,25 +249,25 @@ RUN 4
         - insert - można cos dodać na jakiejś pozycji
         - pop - usuwanie elementu o danej pozycji, np. 1 (pamiętać, że liczy się od 0!)
         - remove - usuwanie elementu o danej nazwie
-
-KOD 5
-Produkty = ["mleko","jaja","ryby","mleko"]
-Produkty.remove("mleko")
-print(Produkty)
-RUN 5
-['jaja', 'ryby', 'mleko']
-
-
-17. (TUPLE) 
+  
+KOD 5  
+Produkty = ["mleko","jaja","ryby","mleko"]  
+Produkty.remove("mleko")  
+print(Produkty)  
+RUN 5  
+['jaja', 'ryby', 'mleko']  
+  
+  
+17. (TUPLE)
 - listy [] można edytować a tupli () nie - tuple są "szybsze" :)
-
+  
 18. {SŁOWNIKI}  
 - (dict) - zestaw kluczy i wartości
 > person = {"wiek": 20, "imię": "Ania", "nazwisko": "Kowalska"}
 print(person["wiek"])
-
+  
 - WAŻNE rodzaje nawiasów:    print(person["wiek"])    ale    print(person.get("wzrost", 25))
-
+  
 - funkcje
         - clear - usuwanie całości
         - copy - kopiowanie
@@ -275,49 +275,49 @@ print(person["wiek"])
         - keys - 
         - values - lista wartości
         - items
-
-
+  
+  
 19. PĘTLE
 - kod, który wykonuje się więcej niż jeden raz
-
+  
 **while** 
 - wykonuje się, dopóki nie zostanie spełniony określony warunek
 - definiowanie zminnej, która przerywa pętlę
-
-- Niekończąca się historia - warunek nigdy nie zostanie spełniony
-i = 0
-while i < 10:
-    print(i)
-
-- Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.
-suma = 0
-while True:
-    print("Wpisz liczbę")
-    x = input()
-    suma += int(x)
-    print(suma)
-
-- Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.?
-lista = ["a","b","c","d"]
-i = 0
-while i < 10:
-    print(lista[i])
-    i +=1
-
-
+  
+- Niekończąca się historia - warunek nigdy nie zostanie spełniony  
+i = 0  
+while i < 10:  
+    print(i)  
+  
+- Poniższa pętla za każdym razem po zakończeniu cyklu na nowo definiuje pojęcie sumy. Początek cyklu zaczyna się od sumy równej ostatniemu wynikowi działania.  
+suma = 0  
+while True:  
+    print("Wpisz liczbę")  
+    x = input()  
+    suma += int(x)  
+    print(suma)  
+  
+- Wynikiem poniższej pętli jest błąd. Lista zawiera mniej niż 10 el.?  
+lista = ["a","b","c","d"]  
+i = 0  
+while i < 10:  
+    print(lista[i])  
+    i +=1  
+  
+  
 **for**
-- Jaka jest definicja "litery" dla Pythona??
-lista = ["a","b","c","d","e","f","g","h","i","j","k"]
-
-for litera in lista:
-    print(litera)
-
-
-
+- Jaka jest definicja "litery" dla Pythona??  
+lista = ["a","b","c","d","e","f","g","h","i","j","k"]  
+  
+for litera in lista:  
+    print(litera)  
+  
+  
+  
 #### Klasy zmiennych
 Liczbowe
 - integer (int) - liczba całkowita
-- float (complex) - zmiennoprzecinkowe
+- float (complex) - zmiennoprzecinkowe  
         Python automatycznie dokonuje konwersji podczas wykonywania dzielenia: integer > float
 
 - string (str) - ciąg znaków
