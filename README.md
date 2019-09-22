@@ -324,7 +324,7 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
         - for i in range(5,10,2): - wygeneruje listę od 5 do 9, ale cyfry będą się zwiększały o 2 (the same why??)
         
     - funkcja **enumerate**
-        ![](C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3\Kurs Python 3 [#9] enumerate, format, break\funkcja enumerate.png)
+        ![C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3\Kurs Python 3 [#9] enumerate, format, break\funkcja enumerate.png]
   
 #### Klasy zmiennych
     Liczbowe
