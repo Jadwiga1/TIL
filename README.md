@@ -218,6 +218,7 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
   
   
 15. WHY????? W warunkach najpierw podaje się prawdę?  
+        ODP. Operacje zaraz po if-ie (z wcieciem do if-a) wykonują się, jeżeli warunek zwraca True!
     KOD 3  
     if 0:  
         print("Zgadza się")  
@@ -324,7 +325,20 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
         - for i in range(5,10,2): - wygeneruje listę od 5 do 9, ale cyfry będą się zwiększały o 2 (the same why??)
         
     - funkcja **enumerate**
-        ![C:\Users\Jadwiga\Desktop\PULPIT\IT\Kurs Python 3\Kurs Python 3 [#9] enumerate, format, break\funkcja enumerate.png]
+        - loop control statements - terminy służące do przerwania pętli  
+                fruits = ['apple', 'orange', 'pear', 'banana', 'apple']  
+                for i, fruit in enumerate(fruits):  
+                    if i == 3:  
+                        break  
+                    print(i)  
+                    print(fruit)  
+        
+    - funkcja **format**
+                x = "Hello {} {}"
+                y = x.format("world", 5.5)
+                print(x)
+                print(y)
+        
   
 #### Klasy zmiennych
     Liczbowe
