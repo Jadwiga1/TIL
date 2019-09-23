@@ -108,7 +108,7 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
     26. TDD - 3 zasady
 
 
-## 2019.09.21
+## 2019.09.21-23
 ### Python - zasady języka
 1. Ogólnie wykonuje polecenia w kolejności ich zapisania
 2. Obowiązują zasady kolejności wykonywania działań
@@ -174,6 +174,11 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
         x += 2  
         print(x)  
         print(type(x))  
+        
+     - Jak zmienić separator dziesiętny? W funkcji input trzeba wpisywać liczby zmiennoprzecinkowe z kropką jako separatorem dziesiętnym. Czy i jak można zmienić ustawienia, żeby można było wpisać liczbę zmiennoprzecinkową z przecinkiem?  
+     ODP. Nie można pisać liczb zmiennoprzecinkowych z przecinkienm w programowaniu, bo takie rozwiązanie, generowałoby dużo błędów. Istnieją przypadki dla których musisz rozdzielić poszczególnie przekazywane parametry i dla takich momentów jest zarezerwowany przecinek, np. print("parametr1", "parametr2"). Raczej w każdym języku tak jest. Zwyczajnie przecinek jest zbyt potrzebny do innych operacji, a kropka jest czytelniejsza w zapisie liczb :slightly_smiling_face:
+Nie mniej, oczywiście da się uwzględnić, że użytkownik będzie chciał użyć przecinka zamiast kropki.
+W takim wypadku trzeba by było użyć coś w stylu: float(zmienna.replace(',','.')) Dzięki temu jeżeli w zmiennej jest np. '3,2', to program to zmieni na '3.2' i prze konwertuje na float.
 
 12. Wypisywanie fragmentów stringów
     - wypisując pierwszy znak stringa, trzeba wpisać 0 [zero]
@@ -354,3 +359,41 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
 
 
 - [GIT - formatowanie tekstu](https://github.com/zozlak/MLAK/wiki/1.5.1-Formatowanie-tekstu)
+- [spoko rozpisane są tutaj podstawy EN](https://www.programiz.com/python-programming)
+
+
+Python has a set of keywords that are reserved words that cannot be used as variable names, function names, or any other identifiers:
+
+1. and	- A logical operator
+2. as	- To create an alias
+3. assert	- For debugging
+4. break	- To break out of a loop
+5. class	- To define a class
+6. continue	- To continue to the next iteration of a loop
+7. def	- To define a function
+8. del	- To delete an object
+9. elif	- Used in conditional statements, same as else if
+10. else	- Used in conditional statements
+11. except	- Used with exceptions, what to do when an exception occurs
+12. False	- Boolean value, result of comparison operations
+13. finally	- Used with exceptions, a block of code that will be executed no matter if there is an exception or not
+14. for	- To create a for loop
+15. from	- To import specific parts of a module
+16. global	- To declare a global variable
+17. if	- To make a conditional statement
+18. import	- To import a module
+19. in	- To check if a value is present in a list, tuple, etc.
+20. is	- To test if two variables are equal
+21. lambda	- To create an anonymous function
+22. None	- Represents a null value
+23. nonlocal	- To declare a non-local variable
+24. not	- A logical operator
+25. or	- A logical operator
+26. pass	- A null statement, a statement that will do nothing
+27. raise	- To raise an exception
+28. return	- To exit a function and return a value
+29. True	- Boolean value, result of comparison operations
+30. try	- To make a try...except statement
+31. while	- To create a while loop
+32. with	- Used to simplify exception handling
+33. yield	- To end a function, returns a generator
