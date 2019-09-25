@@ -108,7 +108,7 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
     26. TDD - 3 zasady
 
 
-## 2019.09.21-23
+## 2019.09.21-25
 ### Python - zasady języka
 1. Ogólnie wykonuje polecenia w kolejności ich zapisania
 2. Obowiązują zasady kolejności wykonywania działań
@@ -397,3 +397,11 @@ Python has a set of keywords that are reserved words that cannot be used as vari
 31. while	- To create a while loop
 32. with	- Used to simplify exception handling
 33. yield	- To end a function, returns a generator
+
+
+
+- [Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp) - w3schools
+- [Installing GitBash on Windows 10](https://liveoncode.com/installing-gitbash-on-windows-10/) - Live on Code
+- [Git Bash, Bash Basics](https://www.youtube.com/watch?v=oQc-2gsjgDg) - Mario Kaack
+- [Jak dodać pliki do repozytorium na GitHubie?](https://www.youtube.com/watch?v=RFihMCC4f_s) - Bede Programistka
+- [Podstawy Pythona](https://tutorial.djangogirls.org/pl/python_introduction/) - Django
