@@ -14,9 +14,7 @@ while True:
 temperature_value = float(input("Wpisz wartość: "))
 
 if type_conversion == "1":
-    degrees_farenheit = temperature_value * 1.8 + 32
-    print("Odpowiedź: {}°C to {}°F".format(temperature_value, degrees_farenheit))
+    print("Odpowiedź: {}°C to {}°F".format(temperature_value, (temperature_value * 1.8 + 32)))
 
 elif type_conversion == "2":
-    degrees_celsius = (temperature_value - 32) / 1.8
-    print("Odpowiedź: {}°F to {}°C".format(temperature_value, degrees_celsius))
+    print("Odpowiedź: {}°F to {}°C".format(temperature_value, ((temperature_value - 32) / 1.8)))
