@@ -5,7 +5,7 @@ print("2 - stopnie Farenheita na Celsjusza")
 
 type_conversion = input("Wpisz interesujący cię rodzaj konwersji (oznaczenie liczbowe): ")
 
-while type_conversion != "1" and type_conversion != "2":
+while type_conversion not in ("1", "2"):
     type_conversion = input("Podana konwersja nie istnieje. Wybierz konwersję z listy: ")
 
 temperature_value = float(input("Wpisz wartość: "))
