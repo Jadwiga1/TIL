@@ -349,6 +349,12 @@ W takim wypadku trzeba by było użyć coś w stylu: float(zmienna.replace(',','
                 y = x.format("world", 5.5)
                 print(x)
                 print(y)
+                
+    - to nie jest pętla - sprawdza jedynie, czy coś jest na liście!!  
+        if "orange" in fruits:
+            print("znaleziono")
+        else:
+            print("nie znaleziono")
         
   
 #### Klasy zmiennych
