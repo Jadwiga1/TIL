@@ -134,13 +134,17 @@ IDE - Integrated Development Environment (Zintegrowane środowisko programistycz
         > print(type(x))
         > najpierw "type" a potem "print"
   
-6. ZNAKI
-    - przypisania: =
+6. Operatory porównania (ang. comparison operators)
     - równości: ==
     - nierówności: !=
-    - "to" :) - na końcu warunku: :
     - większości: >
-    - mniejszości: <
+    - mniejszości: <  
+    - więsze lub równe: >=  
+    - mniejsze lub równe: <=  
+      
+INNE ZNAKI    
+    - przypisania: =
+    - "to" :) - na końcu warunku: :
   
 7. Stringi
     - stringów nie można odejmować i dzielić :)
@@ -355,6 +359,11 @@ W takim wypadku trzeba by było użyć coś w stylu: float(zmienna.replace(',','
             print("znaleziono")
         else:
             print("nie znaleziono")
+            
+    - operatory logiczne (ang. logical operators)  
+        - and
+        - or
+        - and not
         
   
 #### Klasy zmiennych
@@ -417,3 +426,4 @@ Python has a set of keywords that are reserved words that cannot be used as vari
 - [Git Bash, Bash Basics](https://www.youtube.com/watch?v=oQc-2gsjgDg) - Mario Kaack
 - [Jak dodać pliki do repozytorium na GitHubie?](https://www.youtube.com/watch?v=RFihMCC4f_s) - Bede Programistka
 - [Podstawy Pythona](https://tutorial.djangogirls.org/pl/python_introduction/) - Django
+- [Python Tutorial for Beginners [Full Course] 2019](https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=1438s) - EN, 6hrs
