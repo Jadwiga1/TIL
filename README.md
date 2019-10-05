@@ -286,6 +286,7 @@ W takim wypadku trzeba by było użyć coś w stylu: float(zmienna.replace(',','
   
 19. PĘTLE
     - kod, który wykonuje się więcej niż jeden raz
+    - iteracja (ang. iteration) – czynność powtarzania tej samej operacji w pętli z góry określoną liczbę razy lub aż do spełnienia określonego warunku. Mianem iteracji określa się także operacje wykonywane wewnątrz takiej pętli.
   
     - **while** 
         - wykonuje się, dopóki nie zostanie spełniony określony warunek
@@ -329,7 +330,12 @@ W takim wypadku trzeba by było użyć coś w stylu: float(zmienna.replace(',','
         - for i in range(5,10): - wygeneruje listę od 5 do 9 (dlaczego od 5 a nie od 4???)
         - for i in range(5,10,2): - wygeneruje listę od 5 do 9, ale cyfry będą się zwiększały o 2 (the same why??)
         
-    - funkcja **enumerate**
+   - **if**
+        -     jesli po "if" jest tylko jedna funkcja, można ją umiescić w tej samej linijce, np.
+    if fruit == "orange": continue  
+    if fruit == "banana": break  
+     
+   - funkcja **enumerate**
         - loop control statements - terminy służące do przerwania pętli  
                 fruits = ['apple', 'orange', 'pear', 'banana', 'apple']  
                 for i, fruit in enumerate(fruits):  
