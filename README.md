@@ -427,3 +427,15 @@ Python has a set of keywords that are reserved words that cannot be used as vari
 - [Jak dodać pliki do repozytorium na GitHubie?](https://www.youtube.com/watch?v=RFihMCC4f_s) - Bede Programistka
 - [Podstawy Pythona](https://tutorial.djangogirls.org/pl/python_introduction/) - Django
 - [Python Tutorial for Beginners [Full Course] 2019](https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=1438s) - EN, 6hrs
+
+
+2019.10.17  
+#8CodiblyTechTalks - JS  
+18:00  
+Codibly Headquarters, (Długa Skład), Długa 72, Kraków  
+1. Managing user permissions in React applications (PL)  
+    Dawid Hen - Senior Frontend Developer  
+2. Advanced React Hooks concepts (PL)  
+    Dawid Jaracz - Frontend Developer  
+3. Refactoring overgrown React components (PL)  
+    Łukasz Ostrowski - Frontend Developer  
