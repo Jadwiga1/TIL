@@ -447,4 +447,4 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 
 ## 2019.10.21
 1. [Kurs Python 3 [#12] Data i czas](https://www.youtube.com/watch?v=s7R5KThCbGo)  
-2. [Slack](https://www.itworld.com/article/3446881/slack-rolls-out-new-salesforce-integrations-launches-workflow-builder.html) rolls out new Salesforce integrations, launches Workflow Builder
+2. Slack rolls out new Salesforce integrations, launches Workflow Builder [Link](https://www.itworld.com/article/3446881/slack-rolls-out-new-salesforce-integrations-launches-workflow-builder.html)
