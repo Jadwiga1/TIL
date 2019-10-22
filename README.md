@@ -87,3 +87,7 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 ## 2019.10.21
 1. [Kurs Python 3 [#12] Data i czas](https://www.youtube.com/watch?v=s7R5KThCbGo)  
 2. Slack rolls out new Salesforce integrations, launches Workflow Builder [Link](https://www.itworld.com/article/3446881/slack-rolls-out-new-salesforce-integrations-launches-workflow-builder.html)
+
+## 2019.10.22
+1. [Kurs Python 3 [#13] Funkcje](https://www.youtube.com/watch?v=ybRVhUtdHs8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=13)
+2. SD-WAN - What it means for enterprise networking, security, cloud computing [Link](https://www.networkworld.com/article/3031279/sd-wan-what-it-is-and-why-you-ll-use-it-one-day.html)
