@@ -91,3 +91,6 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 ## 2019.10.22
 1. [Kurs Python 3 [#13] Funkcje](https://www.youtube.com/watch?v=ybRVhUtdHs8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=13)
 2. SD-WAN - What it means for enterprise networking, security, cloud computing [Link](https://www.networkworld.com/article/3031279/sd-wan-what-it-is-and-why-you-ll-use-it-one-day.html)
+
+## 2019.10.23
+1. [Kurs Python 3 [#14] Własne moduły, import, from, as](https://www.youtube.com/watch?v=EFIX33Mjzpg&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=14)
