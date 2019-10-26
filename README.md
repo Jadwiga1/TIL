@@ -94,3 +94,10 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 
 ## 2019.10.23
 1. [Kurs Python 3 [#14] Własne moduły, import, from, as](https://www.youtube.com/watch?v=EFIX33Mjzpg&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=14)
+
+## 2019.10.26
+1. [Syntax Vs Semantics - Programming Languages](https://www.youtube.com/watch?v=vP-mn62EF0o)
+2. [Lesson 1.5: Syntax and Semantics](https://www.youtube.com/watch?v=Aco4yDvse0I)
+3. [Reading and Writing Files in Python](https://docs.python.org/3/tutorial/inputoutput.html)
+4. [Kurs Python 3 [#15] Obsługa plików - tryby, write, read](https://www.youtube.com/watch?v=fwMyIL6LRA8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=15)
+5. [Ładowanie indukcyjne](https://www.komputronik.pl/informacje/ladowanie-indukcyjne-smartfona-bezprzewodowe/)
