@@ -106,3 +106,5 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 1. [Symbols - PyCharm](https://www.jetbrains.com/help/pycharm/symbols.html)
 2. [Kurs Python 3 [#16] Moduł os, tworzenie folderów, listy plików](https://www.youtube.com/watch?v=_c-ESIceGHg&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=16)
 3. [Kurs Python 3 [#17] Wyjątki](https://www.youtube.com/watch?v=Aek_2oxBGhU&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=17)
+4. [Kurs Python 3 [#18] Programowanie obiektowe](https://www.youtube.com/watch?v=XHWi2f9KziU&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=18)
+5. [Kurs Python 3 [#19] Magiczne metody w klasach](https://www.youtube.com/watch?v=U80-XkPne-8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=19)
