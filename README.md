@@ -101,3 +101,8 @@ Codibly Headquarters, (Długa Skład), Długa 72, Kraków
 3. [Reading and Writing Files in Python](https://docs.python.org/3/tutorial/inputoutput.html)
 4. [Kurs Python 3 [#15] Obsługa plików - tryby, write, read](https://www.youtube.com/watch?v=fwMyIL6LRA8&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=15)
 5. [Ładowanie indukcyjne](https://www.komputronik.pl/informacje/ladowanie-indukcyjne-smartfona-bezprzewodowe/)
+
+## 2019.10.27
+1. [Symbols - PyCharm](https://www.jetbrains.com/help/pycharm/symbols.html)
+2. [Kurs Python 3 [#16] Moduł os, tworzenie folderów, listy plików](https://www.youtube.com/watch?v=_c-ESIceGHg&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=16)
+3. [Kurs Python 3 [#17] Wyjątki](https://www.youtube.com/watch?v=Aek_2oxBGhU&list=PLdBHMlEKo8UcOaykMssI1_X6ui0tzTNoH&index=17)
